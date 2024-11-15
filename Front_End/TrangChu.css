@@ -24,8 +24,20 @@
     color: white;
     text-decoration: none;/*Bỏ gạch chân*/
     font-weight: 100;
-    font-size: ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item:hover, .item_link:hover{
+    color: gray;
+    cursor: pointer;
+    transition: 0.2s;
+
+  
 }
 .strong{
-    font-style: bold;
+   font-weight: 500;
+}
+.separate::after{
+    content: "|"; /* Nội dung thêm vào sau phần tử */
+    color: gray;
+    margin-left: 10px; /* Khoảng cách từ phần tử đến pseudo-element */
 }
