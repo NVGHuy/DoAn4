@@ -14,6 +14,7 @@
 .header_list{
     list-style: none;
     padding-left: 10px;
+    
 
 }
 
@@ -30,8 +31,10 @@
     color: gray;
     cursor: pointer;
     transition: 0.2s;
-
-  
+}
+.icon_link{
+   color: white;
+   margin: 3px;
 }
 .strong{
    font-weight: 500;
